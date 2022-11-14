@@ -18,4 +18,4 @@ var_dump($number->addNumbers());
 echo '<br>';
 
 $number = new app\Number("123 456 789", "11 22 33");
-var_dump($number->checkDecimals('12.3', '0'));
+var_dump($number->checkDecimals('12.3', '0.155'));
