@@ -37,8 +37,8 @@ class Number {
 
     public function checkDecimals($val1 = 0, $val2 = 0) : int
     {
-        $strTotal01 = str_contains($val1,'.') ? explode('.', $val1) : [$val1, 0];
-        $strTotal02 = str_contains($val2,'.') ? explode('.', $val2) : [$val2, 0];
+        $strTotal01 = str_contains($val1,'.') ? explode('.', $val1) : [$val1, ''];
+        $strTotal02 = str_contains($val2,'.') ? explode('.', $val2) : [$val2, ''];
 
         $finalStr = [strlen($strTotal01[1]), strlen($strTotal02[1])];
 

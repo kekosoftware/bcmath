@@ -1,6 +1,11 @@
 ## About the Program
 * The program is about how to do mathematical operations with large numbers in PHP, for this I make use of the MCMath library
 
+## Enviroment
+* PHP 8.1.2
+* PHPUnit 9.5.26
+
+
 ## How to
 * git clone https://github.com/kekosoftware/bcmath.git
 * composer install
